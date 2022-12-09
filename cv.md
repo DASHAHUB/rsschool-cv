@@ -1,7 +1,7 @@
 # Darya Rykova
 ## Contacts:
 ### Discord- DashaHUB;
-### E-mail:dasha_rykova@i.ua
+### E-mail: dasha_rykova@i.ua
 ### Tel: 0976912819
 ## About myself:
 ### I want to learn Front-End Development in RSSchool!
