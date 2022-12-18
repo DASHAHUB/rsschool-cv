@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .body {
@@ -39,14 +39,12 @@ header {
 	justify-content: space-around;
 	padding: 2rem;
 	width: 100%;
-	color: #070707;
 	background-color: #facae6;
 	border-bottom: 15px solid #fd7dc8;
 }
 .main {
 max-width: 100%;
 margin: auto;
-
 }
 
 .container {
