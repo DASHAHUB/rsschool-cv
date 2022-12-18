@@ -13,7 +13,6 @@
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.5;
-
 }
 
 header {
@@ -42,6 +41,7 @@ header {
 	background-color: #facae6;
 	border-bottom: 15px solid #fd7dc8;
 }
+
 .main {
 max-width: 100%;
 margin: auto;
@@ -57,7 +57,7 @@ margin: auto;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: stretch;
-	}
+}
 
 .main-container {
 	display: flex;
@@ -97,6 +97,7 @@ html {
 	text-decoration: none;  
 	transition: color 0.5s;
 }
+
 .nav-item a:hover {
 	color: #181717;
 }
@@ -122,9 +123,8 @@ background-image: url("./assets/rss.svg");
 background-size: cover;
 background-repeat: no-repeat;
 background-color: #facae6;
-
-
 }
+
 .footer-year{
 	width: 100px;
 	text-align: right;
