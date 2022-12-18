@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #0a0a0a;
+	font-family: 'Lora', serif;
+	min-height: 100vh;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+
+}
+
+header {
+	background-color: #facae6;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+.rss {
+	background-image: url("./assets/one.jpg");
+	width: 300px;
+	height: 300px;
+	margin-top: 5px;
+	object-fit: cover;
+	border-radius: 25%;
+	transition: .3s;
+}
+
+.rss-text {
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+	width: 100%;
+	color: #070707;
+	background-color: #facae6;
+	border-bottom: 15px solid #fd7dc8;
+}
+.main {
+max-width: 100%;
+margin: auto;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+	background-color: #fd7dc8;
+	padding: 0.3rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #facae6;
+}
+	
+.section {
+	width: 50%;
+	padding-top: 0;
+	
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+html {
+	scroll-behavior: smooth; 
+}
+
+.nav-link {
+	position: relative;
+	padding: 0 12px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 50px;
+	color: #fff; 
+}
+
+.nav-item a {
+	color: #070707;
+	text-decoration: none;  
+	transition: color 0.5s;
+}
+.nav-item a:hover {
+	color: #181717;
+}
+
+.text {
+	text-transform: uppercase;
+	font-size: 24px;
+	width: calc(50% - 20px);
+	padding: 10px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+	.section {
+	width: 100%;
+	}
+}
+
+.rs {
+width: 121px;
+height: 45px;
+background-image: url("./assets/rss.svg");
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #facae6;
+
+
+}
+.footer-year{
+	width: 100px;
+	text-align: right;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight:normal;
+	color: var(--bg-color);
+}
+
+.footer-github > a {
+	color: var(--bg-color);
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+	
+.footer-github > a > i {
+	margin-right: 10px;
+	color: var(--bg-color);
+}
+	
